@@ -1,4 +1,4 @@
-{- Copyright (C) 2021 Matheus Fernandes Bigolin <mfrdrbigolin@disroot.org>
+{- Copyright (C) 2021, 2022 Matheus Fernandes Bigolin <mfrdrbigolin@disroot.org>
  - SPDX-License-Identifier: MIT
  -}
 
@@ -9,7 +9,7 @@
 
  - Punctuation (P) calculation method (in pseudo-Haskell):
    P = if NPC > NPI then
-         (NP – NTPC – NPC – NPI)/NP
+         (NP + NPC − NPI − NTPC)/NP
        else
          0.00
 
